@@ -1,4 +1,4 @@
 language: react
 rvm:
- - 2.2
- - jruby
+ - 10.13.0
+ - react
