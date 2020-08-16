@@ -1,0 +1,4 @@
+language: react
+nvm:
+ - 10.12.0
+ - react
