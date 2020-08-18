@@ -1,6 +1,8 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![Netlify Status](https://api.netlify.com/api/v1/badges/2bf82944-2f9c-4a95-9ec4-9a59ec4483f9/deploy-status)](https://app.netlify.com/sites/cranky-kepler-fdd5a7/deploys)
 
-## Available Scripts
+# Burger App
+
+## Scripts
 
 In the project directory, you can run:
 
