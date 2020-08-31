@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import classes from './Modal.css';
-import Aux from '../../../hoc/Aux/Aux';
+import Hux from '../../../hoc/Aux/Hux';
 import Backdrop from '../../UI/Backdrop/Backdrop';
 class Modal extends Component {
     shouldComponentUpdate( nextProps, nextState ) {
@@ -12,7 +12,7 @@ class Modal extends Component {
     }
     render(){
         return (
-            <Aux>
+            <Hux>
             <Backdrop show={this.props.show} clicked={this.props.modalClosed}/>
          <div 
             className={classes.Modal}
@@ -22,7 +22,7 @@ class Modal extends Component {
             }}>
             {this.props.children}
          </div>
-        </Aux>
+        </Hux>
     );
 }
 }
