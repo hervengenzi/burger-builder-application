@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import AUX from '../../../hoc/Aux/Aux';
+import HUX from '../../../hoc/Aux/Hux';
 import Button from '../../UI/Button/Button';
 class OrderSummary extends Component {
     componentWillUpdate(){
@@ -16,7 +16,7 @@ class OrderSummary extends Component {
     </li>);
     });
     return(
-        <AUX>
+        <HUX>
             <h3>Your order Summary</h3>
             <p>Your summary contains these ingredients:</p>
             <ul>
@@ -26,7 +26,7 @@ class OrderSummary extends Component {
             <p>Continue to checkout?</p>
             <Button btnType="Danger" clicked={this.props.purchaseCancelled}>CANCEL</Button>
             <Button btnType="Success" clicked={this.props.purchaseContinue}>CONTINUE</Button>
-        </AUX>
+        </HUX>
     );
 }
 }
