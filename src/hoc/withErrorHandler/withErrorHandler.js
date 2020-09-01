@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Hux from '../../hoc/Aux/Hux';
+import Hux from '../../hoc/Hux/Hux';
 import Modal from '../../components/UI/Modal/Modal';
 const withErrorHandler = (WrappedComponent, axios) => {
     return class extends Component{
